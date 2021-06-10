@@ -4,11 +4,11 @@ import Display from './Components/Display/Display';
 import {useState} from 'react';
 
 function App() {
-  const [display,setDisplay] = useState("");
+  const [display,setDisplay] = useState("0");
 
   return (
     <div className="container">
-      <Display/>
+      <Display valor={display}/>
       <div className="buttons">
         <Button a="c"/>
         <Button a="+/-"/>

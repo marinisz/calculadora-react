@@ -1,10 +1,10 @@
 import React from 'react';
 import './Display.css'
 
-const Display = () => {
+const Display = (props) => {
     return ( 
         <div className="display-container">
-            0
+            {props.valor}
         </div>
      );
 }
