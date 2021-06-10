@@ -1,0 +1,22 @@
+button{
+    border-radius: 100%;
+    width: 60px;
+    height: 50px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.zero{
+    width: 120px;
+}
+
+button:hover{
+    background-color: rgb(173, 171, 164);
+  }
+
+  @media (max-width: 390px){
+    button{
+      max-width: 50px;
+    }
+  }
