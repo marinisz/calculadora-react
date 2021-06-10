@@ -5,12 +5,15 @@ import {useState} from 'react';
 
 function App() {
   const [display,setDisplay] = useState("0");
+  const atualizaDisplay=(valor)=>{
+    setDisplay(valor);
+  }
 
   return (
     <div className="container">
       <Display valor={display}/>
       <div className="buttons">
-        <Button a="c"/>
+        <Button a="c" onClick={atualizaDisplay("c")}/>
         <Button a="+/-"/>
         <Button a="%"/>
         <Button a="/"/>
