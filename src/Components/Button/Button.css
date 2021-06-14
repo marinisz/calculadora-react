@@ -5,6 +5,9 @@ button{
     margin: 10px;
     cursor: pointer;
     font-size: 30px;
+    border: none;
+    box-shadow: 1px 1px 1px 1px black;
+    
 }
 
 .zero{
